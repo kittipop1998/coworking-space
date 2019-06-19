@@ -1,0 +1,148 @@
+/* CSS Document */
+@import "pureCSS.css";
+@import "semanticCard.min.css";
+@import "semanticButton.min.css";
+@import "../font-awesome-4.7.0/css/font-awesome.min.css";
+
+body
+{
+	background:#F0F0F0;
+	height:600px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: double;
+}
+a:active {
+	color: rgba(85, 26, 163, 0.7);
+}
+/*Menu------------------------------------------------------------*/
+#menu
+{
+	float:left;
+	width:280px;
+	height:100%;
+	background:#CCC;
+	position:fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#menu::-webkit-scrollbar {
+    display: none;
+}
+	#logo
+	{
+		height:90px;
+	}
+	#mainmenu
+	{
+		margin:10px 0;
+	}
+	#mainmenu a {
+
+	}
+	#title
+	{
+		margin-left:20px;
+	}
+	#menu span
+	{
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:25px;
+		color:#0CC;
+	}
+	#menu .link-icon {
+		color: #42c0fb;
+		font-size: 35px;
+		margin: 0 5px;
+	}
+	.footer {
+		position: absolute;
+		bottom: 2px;
+		left: 0;
+	}
+/*Header------------------------------------------------------------*/
+#header
+{
+	float:left;
+	width:100%;
+	background:#CCC;
+	position:absolute;
+	top:0;z-index:-1;
+	height:50px;
+}
+	#header p
+	{
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 35px;
+		margin-top:0;
+		margin-bottom:0;
+	}
+	#user
+	{
+		text-align: right;
+		position:absolute;
+		top:0;right:50px;
+		padding-top:10px;
+	}
+	#user .pure-menu-children {
+		text-align: left;
+	}
+/*Content------------------------------------------------------------*/
+#content
+{
+	width:900px;
+	position:absolute;
+	top:30px;
+	left:300px;
+	
+	padding:0 30px 30px 30px;
+	margin: 40px 0 0 40px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:15px;
+}
+	#content h2
+	{
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size:24px;
+	}
+
+	/*-----------------------------------------------------Contact--------------------------------*/
+#contact
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:15px;
+}
+	#contact h2
+	{
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size:25px;
+	}
+	#contact ul li
+	{
+		list-style: none;
+		margin-bottom:10px;
+	}
+	#ban
+	{
+		float:right;
+		font-size: 18px;
+	}
+	.nan
+	{
+		padding-bottom:15px;
+	}
+	.nanchild
+	{
+		padding-left:40px;
+	}
+
+
+	.note {
+		font-size: 12px;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-weight: 0;
+		color: #4d7198;
+	}
